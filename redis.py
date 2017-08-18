@@ -19,7 +19,7 @@ class RedisDatabase(Database):
         await self.client.execute('SET', key, json.dumps(data))
 
     async def get(self, key):
-        data = await self.client.execute('GET', key)
+        data = await self.client.execute('GET', key, encoding="utf-8")
 
         if data:
             return self.convert_timestamp_to_object(json.loads(data))
