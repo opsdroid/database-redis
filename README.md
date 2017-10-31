@@ -15,7 +15,3 @@ databases:
     port:       "12345"       # (optional) default "6379"
     database:   "7"           # (optional) default "0"
 ```
-
-## License
-
-GNU General Public License Version 3 (GPLv3)
