@@ -1,3 +1,5 @@
+⚠️ DEPRECATED ⚠️ This connector is now built in to [opsdroid core](https://opsdroid.readthedocs.io/en/stable/database/redis). This repository only exists for backward compatibility and will be removed.
+
 # opsdroid database redis
 
 A database module for [opsdroid](https://github.com/opsdroid/opsdroid) to persist memory in a [redis database](https://redis.io/).
